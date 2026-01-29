@@ -7,4 +7,4 @@ async function getBuscarLivrosDaApi() {
     const resposta = await fetch(endpointDaApi);
     livros = await resposta.json();
     console.table(livros);
-}
+};
