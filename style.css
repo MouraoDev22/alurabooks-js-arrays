@@ -15,7 +15,7 @@ body {
 }
 
 .wrap {
-  width: 1280px;
+  width: 80rem;
   margin: 0 auto;
 }
 
@@ -23,21 +23,21 @@ body {
   text-align: center;
   width: 100%;
   background-color: var(--bg-color);
-  margin: 15px 15px;
+  margin: 0.9375rem 0.9375rem;
 }
 
 .banner {
   background-image: url('/imagens/Banner-1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 278px;
+  height: 17.375rem;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 30px;
+  height: 1.875rem;
   margin: 4rem 0;
 }
 
@@ -45,11 +45,11 @@ body {
   background-color: var(--button-color);
   border: none;
   cursor: pointer;
-  height: 44px;
+  height: 2.75rem;
   text-decoration: none;
   color: #fff;
-  padding: 10px 16px;
-  border-radius: 8px;
+  padding: 0.625rem 1rem;
+  border-radius: 0.5rem;
   font-size: 0.9rem;
   font-family: 'Poppins';
   font-style: normal;
@@ -58,22 +58,23 @@ body {
 
 .btn:hover {
   color: #cecdcd;
-  border-radius: 10px;
-  border-bottom: 2px solid var(--text-description-color);
+  border-radius: 0.625rem;
+  border-bottom: 0.125rem solid var(--text-description-color);
 }
 
 .livros {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 10rem;
 }
 
 .livro {
-  width: 302px;
+  width: 18.875rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 644px;
+  height: 40.25rem;
   margin-bottom: 1rem;
 }
 
@@ -84,21 +85,21 @@ body {
 .livro__titulo {
   color: var(--text-title-color);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   text-align: center;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 .livro__descricao {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--text-author-color);
   margin: 1rem 0;
 }
 
 .livro__preco {
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-price-color);
 }
@@ -113,18 +114,18 @@ body {
 
 .tag {
   text-align: left;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--text-tag-color);
-  padding: 5px 4px;
+  padding: 0.3125rem 0.25rem;
   background: rgba(197, 197, 197, 0.25);
-  border-radius: 4px;
+  border-radius: 0.25rem;
   margin-right: 1rem;
 }
 
 .livros__disponiveis {
   width: 100%;
-  height: 80px;
+  height: 5rem;
   background-color: var(--text-description-color);
   margin-top: 1rem;
   text-align: center;
@@ -137,13 +138,13 @@ body {
 .livros__disponiveis p {
   color: #fff;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
   font-size: 2.5em;
 } 
 
 .rodape {
   width: 100%;
-  height: 104px;
+  height: 6.5rem;
   background: linear-gradient(96.48deg, #002f52 36.3%, #326589 99.56%);
   margin-top: 1rem;
   text-align: center;
@@ -156,5 +157,5 @@ body {
 .rodape p {
   color: #fff;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
